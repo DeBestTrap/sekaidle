@@ -1,0 +1,4 @@
+.env
+leaderboard.json
+stats.json
+__pycache__
