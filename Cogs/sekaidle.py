@@ -40,7 +40,7 @@ class SekaidleCog(commands.Cog, name='Sekaidle'):
     incorrect_msg = None
     c_correct = c_list[random.randint(0, len(c_list)-1)]
     print(ctx.author.nick, ctx.author.name, c_correct.name)
-    await ctx.send(ctx.author.mention, file=discord.File(os.getcwd() + '/country_imgs/' + c_correct.code + '/1024.png'))
+    await ctx.send(ctx.author.mention, file=discord.File(f'{os.getcwd()}/country_imgs/{c_correct.code.lower()}/1024.png'))
     turn = 1
     while turn < 7:
       guess_msg = await self.bot.wait_for('message', check=lambda message:
