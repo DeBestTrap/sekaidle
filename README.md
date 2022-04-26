@@ -5,7 +5,7 @@ This is a discord bot that is based on [teuteuf](https://github.com/teuteuf)'s W
 Type in ]cn into a discord channel and it will start a game of sekaidle!
 - The bot will send an image of a country and you have six tries to guess the name.
 - If you guess wrong, the bot will say how far your guess was to the image's country.
-- If you type in an invalid country, the bot will suggest a list of 5 country's with similar names to your guess.
+- If you type in an invalid country, the bot will suggest a list of 7 countries with similar names to your guess.
 
 ### Example game:
 ### Guessing Wrong
